@@ -2,21 +2,10 @@
   "name": "room-rental-app",
   "private": true,
   "version": "1.0.0",
-  "type": "module",
-
-
-
-  "homepage": "https://subashgiri7.github.io/p2p/",
-  "homepage": "https://subashgiri7.github.io",
-
-
-
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "start": "ts-node server/index.ts",
-    "prisma:generate": "prisma generate",
-    "prisma:migrate": "prisma migrate dev"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@prisma/client": "^6.17.1",
